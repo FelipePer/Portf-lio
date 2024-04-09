@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scroll Lock - Surpreenda-se</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Inicialmente, o scroll está travado */
+  }
+
+  .container {
+    text-align: center;
+    padding: 20px;
+    display: block;
+  }
+
+  .round-image {
+    margin-top: 300px;
+    margin-left: 1124px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 150px;
+    background-color: blue;
+  }
+
+  .round-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .surprise-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+  }
+
+  .surprise-button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="round-image">
+    <img src="./img/1.jpg" alt="Imagem Redonda">
+  </div>
+  <button class="surprise-button" onclick="unlockScroll()">Surpreenda-se</button>
+</div>
+
+<script>
+  function unlockScroll() {
+    // Habilita o scroll
+    document.body.style.overflow = 'auto';
+
+    // Desloca a tela para baixo
+    window.scrollTo(0, document.body.scrollHeight);
+  }
+</script>
+
+</body>
+</html>
