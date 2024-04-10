@@ -25,7 +25,7 @@ body {
     flex-direction: column;
     gap: 1rem;
     min-height: 100vh;
-    padding: 6rem 9% 10rem;
+    padding: 2rem 9% 10rem;
 
 }
 
@@ -42,16 +42,9 @@ span {
     color: blue;
 }
 
-
-
-.tsi {
-    font-size: 1.3rem;
-    margin: 10rem 0 1rem 0;
-}
-
 .nome1 h1{
-    font-size:40px;
-    font-weight: 700;
+    font-size:34px;
+    font-weight: 600;
     margin-top: 20px;
     line-height: 1;
     margin-bottom: 4rem;
@@ -64,7 +57,7 @@ span {
 .home-img img{
     position: relative;
     margin-top: 24px;
-    width: 300px;
+    width: 250px;
     border-radius: 10%;
     box-shadow: 0 0 25px rgb(0, 119, 255);
     transition: 0.2s ease-in-out;
@@ -74,11 +67,36 @@ span {
     box-shadow: 0 0 50px blue,
                 0 0 20px blue;
 }
+.habil {
+    border-radius: 50%;
+}
 
+.habil img{
+    position: relative;
+    margin-top: 24px;
+    width: 250px;
+    border-radius: 10%;
+    box-shadow: 0 0 25px rgb(0, 119, 255);
+    transition: 0.2s ease-in-out;
+}
+
+.habil img:hover {
+    box-shadow: 0 0 50px blue,
+                0 0 20px blue;
+}
+
+.habilit {
+    margin-top: 3rem;
+    
+}
+
+.habilit h1{
+    font-size: 41px;
+}
 .home-content p{
     font-size:28px;
     font-weight: 100;
-    max-width: 120rem;
+    max-width: 110rem;
 }
 
 .social-icons button{
@@ -113,7 +131,7 @@ section {
 .home2-content h1{
     font-size:40px;
     font-weight: 700;
-    margin-top: 200px;
+    margin-top: 3rem;
     line-height: 1;
     margin-bottom: 1rem;
 }
@@ -162,17 +180,41 @@ section {
 }
 
 .sobre-eu {
+
     margin-top: 5rem;
-    font-size:23px;
+    font-size:20px;
     font-weight: 100;
     max-width: 120rem;
+}
+.sobre-eu h1{
+
+    margin-top: 2rem;
+
 }
 
 .sobre-eu p{
     
-    margin-top: 30px;
+    margin-top:30px;
+    font-size: 25px;
 }
 
+.tsi {
+    margin-top: 5rem;
+    font-size:30px;
+    font-weight: 100;
+    max-width: 120rem;
+}
+
+.tsi h3{
+
+    margin-top: 3rem;
+}
+
+.tsi p{
+    
+    margin-top:30px;
+    font-size: 25px;
+}
 .animacao {
 
     font-size: 1.2rem;
